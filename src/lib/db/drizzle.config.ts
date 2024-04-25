@@ -1,5 +1,5 @@
 import type {Config} from "drizzle-kit";
-import {DATABASE_URL} from "./env.server";
+import {DATABASE_URL} from "./db.env.server";
 
 if (!DATABASE_URL){
     throw new Error("No url!");

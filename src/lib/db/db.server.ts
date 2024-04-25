@@ -1,7 +1,7 @@
 // db/db.server.ts
 import {drizzle} from "drizzle-orm/postgres-js";
 import postgres from "postgres";
-import {DATABASE_URL} from "./env.server";
+import {DATABASE_URL} from "./db.env.server";
 import {dev} from "$app/environment";
 
 
