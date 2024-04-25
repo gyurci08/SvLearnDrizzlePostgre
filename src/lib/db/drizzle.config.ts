@@ -1,11 +1,7 @@
 import type {Config} from "drizzle-kit";
-import * as dotenv from "dotenv";
-dotenv.config();
-
-let DATABASE_URL="postgres://svelteuser:Password111@localhost:5432/sveltedb";
+import {DATABASE_URL} from "./env.server";
 
 if (!DATABASE_URL){
-    // @ts-ignore
     throw new Error("No url!");
 }
 export default {
