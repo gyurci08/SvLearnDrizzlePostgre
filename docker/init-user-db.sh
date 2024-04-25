@@ -23,5 +23,4 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
   GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public to svelteuser;
   GRANT ALL PRIVILEGES ON ALL FUNCTIONS IN SCHEMA public to svelteuser;
 
-
 EOSQL
