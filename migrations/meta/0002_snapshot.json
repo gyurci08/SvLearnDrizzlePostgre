@@ -1,0 +1,43 @@
+{
+  "id": "f6221ddd-4bdd-4c79-ae06-7d0c03ad701c",
+  "prevId": "be816dd1-3d58-45a4-a92b-6a97121d4ee6",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "scores1": {
+      "name": "scores1",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "score": {
+          "name": "score",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

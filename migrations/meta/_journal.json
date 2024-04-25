@@ -15,6 +15,20 @@
       "when": 1714041782541,
       "tag": "0001_curly_vector",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1714044647273,
+      "tag": "0002_glossy_lilandra",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1714045144526,
+      "tag": "0003_chemical_chronomancer",
+      "breakpoints": true
     }
   ]
 }
